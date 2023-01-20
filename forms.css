@@ -1,0 +1,36 @@
+body{
+  background-color: aqua;
+}
+header {
+  margin: 6px;
+  padding: 3px;
+  background-color: blue;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+input {
+  margin: 6px;
+  padding: 5px 10px;
+}
+.container {
+  margin: 6px;
+  padding: 3px;
+  background-color: forestgreen;
+ 
+}
+#button {
+  margin: 6px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(34, 50, 139);
+}
+#gender {
+  margin: 6px;
+  padding: 5px 10px;
+}
+#box{
+  margin: 5px;
+  padding: 5px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Detail</title>
+    <link rel="stylesheet" href="forms.css" />
+  </head>
+
+  <body>
+    <form id="form">
+      <header>
+        <h1>STUDENT DETAIL</h1>
+      </header>
+      <div class="container">
+        <ul>
+          Student Full Name*
+          <label for="Student Name">
+            <input
+              type="text"
+              placeholder="First Name"
+              id="studentFirstName"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Last Name"
+              id="stLastName"
+              required
+            /><br />
+          </label>
+          Father Name
+          <label for="Father Name">
+            <input
+              type="text"
+              placeholder="First Name"
+              id="fatherFirstName"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Last Name"
+              id="fatherLastName"
+              required
+            /><br />
+          </label>
+          Age
+          <label for="Age">
+            <input
+              type="number"
+              placeholder="enter your age in years"
+              id="age"
+              required
+            />
+          </label>
+          Contact No.
+          <label for="Contact No.">
+            <input type="number" placeholder="03001112223" id="contact" required="required"/><br />
+            <label for="Gender select">Gender</label>
+          </label>
+          <select id="gender"  required="required">
+            <option value="">--None--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option></select
+          ><br />
+          <div>
+            <input
+              type="submit"
+              value="ADD"
+              onclick="addEvent()"
+            />
+          </div>
+        </ul>
+      </div>
+      <div id="box">
+        <table border="1|1">
+          <thead>
+            <tr>
+              <th>Sr#</th>
+              <th>Student First Name</th>
+              <th>Student Last Name</th>
+              <th>Father First Name</th>
+              <th>Father Last Name</th>
+              <th>Age</th>
+              <th>Contact</th>
+              <th>Gender</th>
+            </tr>
+          </thead>
+          <tbody id="studentData"></tbody>
+        </table>
+      </div>
+    </form>
+    <script src="Forms.js"></script>
+  </body>
+</html>
